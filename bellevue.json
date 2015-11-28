@@ -1,0 +1,681 @@
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"WA",
+		"city":"Bellevue",
+		"tz_short":"PDT",
+		"tz_long":"America/Los_Angeles",
+		"lat":"47.61563873",
+		"lon":"-122.21087646",
+		"zip":"98004",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:98004.1.99999",
+		"requesturl":"US/WA/Bellevue.html",
+		"wuiurl":"http://www.wunderground.com/US/WA/Bellevue.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Seattle Boeing", "state":"WA", "country":"US", "icao":"KBFI", "lat":"47.52999878", "lon":"-122.30197144" }
+		,{ "city":"Renton", "state":"WA", "country":"US", "icao":"KRNT", "lat":"47.49313736", "lon":"-122.21575165" }
+		,{ "city":"Seattle", "state":"WA", "country":"US", "icao":"KSEA", "lat":"47.44469070", "lon":"-122.31436920" }
+		,{ "city":"Everett", "state":"WA", "country":"US", "icao":"KPAE", "lat":"47.90700150", "lon":"-122.28158569" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Bellevue - Downtown Park",
+		"city":"Bellevue",
+		"state":"WA",
+		"country":"US",
+		"id":"KWABELLE17",
+		"lat":47.612469,
+		"lon":-122.204575,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Clyde Hill",
+		"city":"Clyde Hill",
+		"state":"WA",
+		"country":"US",
+		"id":"KWACLYDE2",
+		"lat":47.623920,
+		"lon":-122.221420,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Medina",
+		"city":"Medina",
+		"state":"WA",
+		"country":"US",
+		"id":"KWAMEDIN2",
+		"lat":47.616776,
+		"lon":-122.229630,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"APRSWXNET",
+		"city":"Bellevue",
+		"state":"WA",
+		"country":"US",
+		"id":"MD6133",
+		"lat":47.643169,
+		"lon":-122.213997,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Wilburton",
+		"city":"Bellevue",
+		"state":"WA",
+		"country":"US",
+		"id":"KWABELLE91",
+		"lat":47.614223,
+		"lon":-122.169502,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"APRSWXNET",
+		"city":"Medina",
+		"state":"WA",
+		"country":"US",
+		"id":"MD4490",
+		"lat":47.638828,
+		"lon":-122.237000,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Enatai",
+		"city":"Bellevue",
+		"state":"WA",
+		"country":"US",
+		"id":"KWABELLE100",
+		"lat":47.585464,
+		"lon":-122.194824,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Language Garden, LLC",
+		"city":"Bellevue",
+		"state":"WA",
+		"country":"US",
+		"id":"KWABELLE102",
+		"lat":47.616859,
+		"lon":-122.152855,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Gallagher Hill",
+		"city":"Mercer Island",
+		"state":"WA",
+		"country":"US",
+		"id":"KWAMERCE3",
+		"lat":47.576061,
+		"lon":-122.218719,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Central Houghton",
+		"city":"Kirkland",
+		"state":"WA",
+		"country":"US",
+		"id":"KWAKIRKL24",
+		"lat":47.660835,
+		"lon":-122.195328,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Madrona",
+		"city":"Seattle",
+		"state":"WA",
+		"country":"US",
+		"id":"KWASEATT334",
+		"lat":47.617264,
+		"lon":-122.292870,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Madison Valley",
+		"city":"Seattle",
+		"state":"WA",
+		"country":"US",
+		"id":"KWASEATT404",
+		"lat":47.619488,
+		"lon":-122.297600,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Seattle Girls School",
+		"city":"Seattle",
+		"state":"WA",
+		"country":"US",
+		"id":"KWASEATT245",
+		"lat":47.599674,
+		"lon":-122.296761,
+		"distance_km":6,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Newport Hills",
+		"city":"Bellevue",
+		"state":"WA",
+		"country":"US",
+		"id":"KWABELLE99",
+		"lat":47.558613,
+		"lon":-122.180054,
+		"distance_km":6,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Leschi",
+		"city":"Seattle",
+		"state":"WA",
+		"country":"US",
+		"id":"KWASEATT242",
+		"lat":47.591381,
+		"lon":-122.293732,
+		"distance_km":6,
+		"distance_mi":4
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Bellevue, WA",
+		"city":"Bellevue",
+		"state":"WA",
+		"state_name":"Washington",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"98004",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"47.61563873",
+		"longitude":"-122.21087646",
+		"elevation":"64.00000000"
+		},
+		"observation_location": {
+		"full":"Bellevue - Downtown Park, Bellevue, Washington",
+		"city":"Bellevue - Downtown Park, Bellevue",
+		"state":"Washington",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"47.612469",
+		"longitude":"-122.204575",
+		"elevation":"100 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KWABELLE17",
+		"observation_time":"Last Updated on October 18, 11:40 AM PDT",
+		"observation_time_rfc822":"Sun, 18 Oct 2015 11:40:19 -0700",
+		"observation_epoch":"1445193619",
+		"local_time_rfc822":"Sun, 18 Oct 2015 11:40:20 -0700",
+		"local_epoch":"1445193620",
+		"local_tz_short":"PDT",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0700",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"57.5 F (14.2 C)",
+		"temp_f":57.5,
+		"temp_c":14.2,
+		"relative_humidity":"94%",
+		"wind_string":"Calm",
+		"wind_dir":"South",
+		"wind_degrees":173,
+		"wind_mph":0.0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1017",
+		"pressure_in":"30.02",
+		"pressure_trend":"+",
+		"dewpoint_string":"56 F (13 C)",
+		"dewpoint_f":56,
+		"dewpoint_c":13,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"57.5 F (14.2 C)",
+		"feelslike_f":"57.5",
+		"feelslike_c":"14.2",
+		"visibility_mi":"2.0",
+		"visibility_km":"3.2",
+		"solarradiation":"--",
+		"UV":"1","precip_1hr_string":"0.01 in ( 0 mm)",
+		"precip_1hr_in":"0.01",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.02 in (1 mm)",
+		"precip_today_in":"0.02",
+		"precip_today_metric":"1",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/WA/Bellevue.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KWABELLE17",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=47.612469,-122.204575",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"10:34 AM PDT",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Sunday",
+		"fcttext":"Cloudy with occasional rain showers. High 61F. Winds light and variable. Chance of rain 60%.",
+		"fcttext_metric":"Overcast with rain showers at times. High 16C. Winds light and variable. Chance of rain 60%.",
+		"pop":"60"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Sunday Night",
+		"fcttext":"Showers early, then cloudy overnight. Low 54F. Winds light and variable. Chance of rain 40%.",
+		"fcttext_metric":"Showers early, then cloudy overnight. Low 13C. Winds light and variable. Chance of rain 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":2,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Monday",
+		"fcttext":"Considerable cloudiness. Occasional rain showers in the afternoon. High 59F. Winds S at 5 to 10 mph. Chance of rain 70%.",
+		"fcttext_metric":"Cloudy skies with periods of light rain later in the day. High 16C. Winds S at 10 to 15 km/h. Chance of rain 70%.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+		"title":"Monday Night",
+		"fcttext":"Mostly cloudy. Slight chance of a rain shower. Low 51F. Winds light and variable.",
+		"fcttext_metric":"A few showers early with mostly cloudy conditions late. Low 11C. Winds light and variable. Chance of rain 30%.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":4,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Tuesday",
+		"fcttext":"Considerable clouds early. Some decrease in clouds later in the day. High 62F. Winds light and variable.",
+		"fcttext_metric":"Cloudy skies early will become partly cloudy later in the day. High 17C. Winds light and variable.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_clear.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Clear to partly cloudy. Low 47F. Winds light and variable.",
+		"fcttext_metric":"Partly cloudy. Low 9C. Winds light and variable.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Cloudy with occasional showers for the afternoon. High 64F. Winds S at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Cloudy in the morning, then off and on rain showers during the afternoon hours. High 18C. Winds S at 10 to 15 km/h. Chance of rain 40%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Cloudy with occasional rain showers. Low 49F. Winds light and variable. Chance of rain 50%.",
+		"fcttext_metric":"Cloudy with showers. Low near 10C. Winds light and variable. Chance of rain 50%.",
+		"pop":"50"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1445220000",
+	"pretty":"7:00 PM PDT on October 18, 2015",
+	"day":18,
+	"month":10,
+	"year":2015,
+	"yday":290,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"October",
+	"monthname_short":"Oct",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"61",
+		"celsius":"16"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":60,
+		"qpf_allday": {
+		"in": 0.11,
+		"mm": 3
+		},
+		"qpf_day": {
+		"in": 0.10,
+		"mm": 3
+		},
+		"qpf_night": {
+		"in": 0.01,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "S",
+		"degrees": 173
+		},
+		"avewind": {
+		"mph": 4,
+		"kph": 6,
+		"dir": "S",
+		"degrees": 173
+		},
+		"avehumidity": 87,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1445306400",
+	"pretty":"7:00 PM PDT on October 19, 2015",
+	"day":19,
+	"month":10,
+	"year":2015,
+	"yday":291,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"October",
+	"monthname_short":"Oct",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"59",
+		"celsius":"15"
+		},
+		"low": {
+		"fahrenheit":"51",
+		"celsius":"11"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":70,
+		"qpf_allday": {
+		"in": 0.09,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.09,
+		"mm": 2
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "S",
+		"degrees": 183
+		},
+		"avewind": {
+		"mph": 6,
+		"kph": 10,
+		"dir": "S",
+		"degrees": 183
+		},
+		"avehumidity": 92,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1445392800",
+	"pretty":"7:00 PM PDT on October 20, 2015",
+	"day":20,
+	"month":10,
+	"year":2015,
+	"yday":292,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"October",
+	"monthname_short":"Oct",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"62",
+		"celsius":"17"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Partly Cloudy",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "N",
+		"degrees": 11
+		},
+		"avewind": {
+		"mph": 3,
+		"kph": 5,
+		"dir": "N",
+		"degrees": 11
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1445479200",
+	"pretty":"7:00 PM PDT on October 21, 2015",
+	"day":21,
+	"month":10,
+	"year":2015,
+	"yday":293,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"1",
+	"monthname":"October",
+	"monthname_short":"Oct",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PDT",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"64",
+		"celsius":"18"
+		},
+		"low": {
+		"fahrenheit":"49",
+		"celsius":"9"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.06,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"qpf_night": {
+		"in": 0.03,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "S",
+		"degrees": 185
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "S",
+		"degrees": 185
+		},
+		"avehumidity": 75,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}
